@@ -58,8 +58,8 @@ jobs:
       
     - uses: actions/upload-artifact@v4
       with:
-        name: my-artifact
-        path: path/**/[abc]rtifac?/*
+        name: app-jar
+        path: app
         
     - uses: actions/checkout@v4
       with:
