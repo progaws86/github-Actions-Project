@@ -83,7 +83,7 @@ jobs:
     runs-on: self-hosted
     needs: build_project_sonar_scan
     steps:
-    - uses: actions/download-artifact@v4
+    - uses: actions/download-artifact@v3
     - name: Download jar artifact
       with:
         name: app-jar
